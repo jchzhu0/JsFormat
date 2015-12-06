@@ -12,6 +12,7 @@ is_py2k = sys.version_info < (3, 0)
 # Python 2.x on Windows can't properly import from non-ASCII paths, so
 # this code added the DOC 8.3 version of the lib folder to the path in
 # case the user's username includes non-ASCII characters
+# test
 
 
 def add_lib_path(lib_path):
